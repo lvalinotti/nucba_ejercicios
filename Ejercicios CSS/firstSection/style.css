@@ -41,7 +41,6 @@
 
 .content span{
     width: 100%;
-    /* align-content: center; */
     font-size: 30px;
     font-weight: 700;
 }
@@ -60,12 +59,22 @@
     align-items: flex-start;
 }
 
-.content__buttom{
+.buttom{
     width: 100%;
     padding: 10px 10px;
     list-style-type: none;
     display: flex;
 }
+
+/* .content__buttom-1{
+    color: #fff;
+    background-color: #000
+} */
+
+/* .content__buttom-2{
+    color: #000;
+    background-color: #fff
+} */
 
 .content__buttom a{
     width: 100%;
@@ -75,11 +84,8 @@
     border: 1px solid #000;
     border-radius: 20px;
     font-size: 12px;
-}
-
-.content__buttom-1{
-    color: #fff;
-    background-color: #000
+    color: #000;
+    background-color: #fff
 }
 
 .image{
