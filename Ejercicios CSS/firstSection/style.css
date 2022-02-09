@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family:  'Poppins', sans-serif;
+}
+
+.wrapper{
+    width: 80%;
+    height: 90vh;
+    margin: 20px auto;
+    background-color: #EEE6CE;
+    display: flex;
+    border-radius: 15px;
+}
+
+.content{
+    width: 110%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content h1{
+    width: 80%;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.content span{
+    width: 100%;
+    /* align-content: center; */
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.content p{
+    width: 80%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.content__buttom{
+    width: 80%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+}
+
+.content__buttom{
+    width: 100%;
+    padding: 10px 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+.content__buttom a{
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.content__buttom-1{
+    color: #fff;
+    background-color: #000
+}
+
+.image{
+    margin: 30px;
+    width: 90%;
+    height: 90%;
+    background-image: url(/lion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    opacity: .7;
+}
