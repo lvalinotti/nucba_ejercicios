@@ -76,6 +76,7 @@ body{
 .button-red{
     background-color: #ED6755;
     color: #FFFFFF;
+    border: 2px solid #ED6755;
     border-radius: .8rem;
 }
 
@@ -88,6 +89,7 @@ body{
 
 .button-blue{
     background-color: #2C3E50;
+    border: 2px solid #2C3E50;
     color: #FFFFFF;
     border-radius: .8rem;
 }
